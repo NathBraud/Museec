@@ -1,0 +1,7 @@
+<h2><%= @band.name %></h2>
+<h3><%= @band.best_track %></h3>
+<p><%= @band.description %></p>
+<p><%= @band.from_year %> - <%= @band.to_year %></p> 
+
+<%= link_to 'Edit', edit_band_path(@band) %>
+<%= link_to 'Delete', band_path(@band), method: :delete, data: { confirm: "Are you sure to delete this band ?" } %>

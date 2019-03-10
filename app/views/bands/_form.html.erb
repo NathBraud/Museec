@@ -1,0 +1,9 @@
+<%= simple_form_for @band do |f| %>
+	<%= f.input :name, label: "Band Name" %>
+	<%= f.input :best_track, label: "Famous Track" %>
+	<%= f.input :description, label: "Description" %>
+	<%= f.input :image, label: "Add an image's URL" %>
+	<%= f.input :from_year, label: "From Year" %>
+	<%= f.input :to_year, label: "To Year" %>
+	<%= f.button :submit%>
+<% end %>

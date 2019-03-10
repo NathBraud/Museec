@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  best_track: MyString
+  description: MyText
+  image: MyText
+  from_year: 1
+  to_year: MyString
+
+two:
+  name: MyString
+  best_track: MyString
+  description: MyText
+  image: MyText
+  from_year: 1
+  to_year: MyString
